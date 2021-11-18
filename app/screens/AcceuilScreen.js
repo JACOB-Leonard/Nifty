@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, ImageBackground, StyleSheet, View,  } from 'react-native';
+//import Logo_sans_tagline from '../assets/images';
 
 
 function AcceuilScreen(props) {
@@ -8,12 +9,12 @@ function AcceuilScreen(props) {
             resizeMode = 'contain'
             style = {styles.backgroud}
             //Les "deux point" permet acceder Nifty puis app
-            //source = {require("../assets/testBackground.jpg")}
+            source = {require("../assets/testBackground.jpg")}
             >
                 <View style={styles.logoContainer}>
                     <Image resizeMode = 'contain'
                     style={styles.logo} 
-                    /*source = {require('../assets/Logo_Nifty.jpg')}*//> 
+                    /*source = {require('../images/Logo_sans_tagline.jpg')}*//> 
                 </View>
             </ImageBackground>
                 
